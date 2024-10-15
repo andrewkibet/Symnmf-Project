@@ -5,7 +5,7 @@ import mysymnmfsp as msm
 np.random.seed(0)
 
 def defX(filename):
-    return pd.read_csv(filename, header=None, delim_whitespace=True).astype(float).values.tolist()
+    return pd.read_csv(filename, header=None, sep='\s+').astype(float).values.tolist()
 
 # Hinitialization
 '''
