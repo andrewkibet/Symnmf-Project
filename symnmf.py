@@ -7,15 +7,31 @@ np.random.seed(0)
 def defX(filename):
     return pd.read_csv(filename, header=None, delim_whitespace=True).astype(float).values.tolist()
 
-
+# Hinitialization
+'''
 def initial_H(W, n, k):
-    np.random.seed(1234) #Hinitialization
+    np.random.seed(1234) 
     W_np = np.array(W)
     m = np.mean(W_np)
     upper_bound = 2 * np.sqrt(m / k)
     H0_np = np.random.uniform(0, upper_bound, size=(n, k))
     H0 = H0_np.tolist()
     return H0
+
+'''
+# Use np.random.uniform() for random selection
+
+def initial_H(W, n, k):
+    W_np = np.array(W)
+    m = np.mean(W_np)
+    upper_bound = 2 * np.sqrt(m / k)
+    H0_np = np.random.uniform(low=0, high=upper_bound, size=(n, k))
+    H0 = H0_np.tolist()
+    return H0
+
+
+
+
 
 def printMatrix(M):
     for vector in M:
