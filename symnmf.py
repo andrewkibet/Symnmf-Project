@@ -9,6 +9,7 @@ def defX(filename):
 
 
 def initial_H(W, n, k):
+    np.random.seed(1234) #Hinitialization
     W_np = np.array(W)
     m = np.mean(W_np)
     upper_bound = 2 * np.sqrt(m / k)
