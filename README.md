@@ -44,4 +44,7 @@ Feel free to explore the code and experiment with the SymNMF algorithm for your 
 
 # 2.1
     case 1: symnmf  : python symnmf.py 3 symnmf data.txt
+    case 2: python symnmf.py sym data.txt 
+    case 3: 
+
 
