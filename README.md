@@ -38,3 +38,10 @@ Where:
 By comparing SymNMF and K-means using the silhouette score, the project aims to determine which clustering method performs better on the given datasets.
 
 Feel free to explore the code and experiment with the SymNMF algorithm for your clustering needs.
+
+
+
+
+# 2.1
+    case 1: symnmf  : python symnmf.py 3 symnmf data.txt
+
