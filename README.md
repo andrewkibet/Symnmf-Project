@@ -46,6 +46,7 @@ Feel free to explore the code and experiment with the SymNMF algorithm for your 
     case 1: symnmf  : python symnmf.py 3 symnmf data.txt
     case 2: python symnmf.py sym data.txt 
     case 3: python symnmf.py ddg data.txt
+    case 4: python symnmf.py norm data.txt
 
 
 
