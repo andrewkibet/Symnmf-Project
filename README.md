@@ -48,5 +48,15 @@ Feel free to explore the code and experiment with the SymNMF algorithm for your 
     case 3: python symnmf.py ddg data.txt
     case 4: python symnmf.py norm data.txt
 
+Ensure that the paths are well structured.
+[text](.vscode/c_cpp_properties.json)
+
+Header File Placement:
+Ensure that all necessary header files, such as Python.h, are placed in the correct include path within your development environment. This allows the compiler to locate the headers when building your C/C++ extension, which is crucial for proper functionality.
+
+Installation of Microsoft C++ Build Tools:
+To successfully compile and build your C/C++ project, it is required to install the Microsoft C++ Build Tools. This includes the necessary compilers, libraries, and tools needed to create C/C++ applications on Windows. Without these tools, you may encounter errors related to missing compilers or build failures.
+
+
 
 
